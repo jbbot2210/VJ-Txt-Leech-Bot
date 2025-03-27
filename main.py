@@ -118,7 +118,7 @@ async def upload(bot: Client, m: Message):
     else:
         token = raw_text0
         
-    await editable.edit("Now send the Thumb url/nEg » https://graph.org/file/ce1723991756e48c35aa1.jpg \n Or if don't want thumbnail send = no")
+    await editable.edit("Now send the Thumb url/nEg » https://i.ibb.co/PdQf7v9/adc655477f63.jpg \n Or if don't want thumbnail send = no")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
